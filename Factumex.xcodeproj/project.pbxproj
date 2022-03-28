@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76681F4C4F762E0D77E0680A /* Pods_Factumex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FFCD753F6D2C26A1C721BA /* Pods_Factumex.framework */; };
+		FA530EA227EF4C370073A6EA /* ViewModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA530EA127EF4C370073A6EA /* ViewModelViewController.swift */; };
 		FA77E9D127ED246A00C344D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9D027ED246A00C344D6 /* AppDelegate.swift */; };
 		FA77E9D327ED246A00C344D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9D227ED246A00C344D6 /* SceneDelegate.swift */; };
 		FA77E9D527ED246A00C344D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9D427ED246A00C344D6 /* ViewController.swift */; };
 		FA77E9D827ED246A00C344D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA77E9D627ED246A00C344D6 /* Main.storyboard */; };
 		FA77E9DA27ED246C00C344D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA77E9D927ED246C00C344D6 /* Assets.xcassets */; };
 		FA77E9DD27ED246C00C344D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA77E9DB27ED246C00C344D6 /* LaunchScreen.storyboard */; };
+		FA77E9E827ED25C300C344D6 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9E727ED25C300C344D6 /* ApiServices.swift */; };
+		FA77E9EB27ED262600C344D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9EA27ED262600C344D6 /* Constants.swift */; };
+		FA77E9EF27ED269300C344D6 /* InformationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9EE27ED269300C344D6 /* InformationResponse.swift */; };
+		FA77E9F227ED291900C344D6 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9F027ED291900C344D6 /* TextFieldCell.swift */; };
+		FA77E9F327ED291900C344D6 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA77E9F127ED291900C344D6 /* TextFieldCell.xib */; };
+		FA77E9F627ED2CF000C344D6 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77E9F427ED2CF000C344D6 /* ButtonCell.swift */; };
+		FA77E9F727ED2CF000C344D6 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA77E9F527ED2CF000C344D6 /* ButtonCell.xib */; };
+		FAAD675627ED438300B5DBF5 /* AnyChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD675427ED438300B5DBF5 /* AnyChartCell.swift */; };
+		FAAD675727ED438300B5DBF5 /* AnyChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAD675527ED438300B5DBF5 /* AnyChartCell.xib */; };
+		FAAD675927ED497E00B5DBF5 /* GraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD675827ED497E00B5DBF5 /* GraphicsViewController.swift */; };
+		FAAD677B27ED8A5B00B5DBF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAAD677A27ED8A5B00B5DBF5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F47213786EC69AF1F693BFA /* Pods-Factumex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Factumex.debug.xcconfig"; path = "Target Support Files/Pods-Factumex/Pods-Factumex.debug.xcconfig"; sourceTree = "<group>"; };
+		96FFCD753F6D2C26A1C721BA /* Pods_Factumex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Factumex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06F3F91DD41AF66BE20C457 /* Pods-Factumex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Factumex.release.xcconfig"; path = "Target Support Files/Pods-Factumex/Pods-Factumex.release.xcconfig"; sourceTree = "<group>"; };
+		FA530EA127EF4C370073A6EA /* ViewModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelViewController.swift; sourceTree = "<group>"; };
 		FA77E9CD27ED246A00C344D6 /* Factumex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factumex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA77E9D027ED246A00C344D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA77E9D227ED246A00C344D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,17 @@
 		FA77E9D927ED246C00C344D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA77E9DC27ED246C00C344D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA77E9DE27ED246C00C344D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA77E9E727ED25C300C344D6 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		FA77E9EA27ED262600C344D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA77E9EE27ED269300C344D6 /* InformationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationResponse.swift; sourceTree = "<group>"; };
+		FA77E9F027ED291900C344D6 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		FA77E9F127ED291900C344D6 /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		FA77E9F427ED2CF000C344D6 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		FA77E9F527ED2CF000C344D6 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		FAAD675427ED438300B5DBF5 /* AnyChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyChartCell.swift; sourceTree = "<group>"; };
+		FAAD675527ED438300B5DBF5 /* AnyChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnyChartCell.xib; sourceTree = "<group>"; };
+		FAAD675827ED497E00B5DBF5 /* GraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsViewController.swift; sourceTree = "<group>"; };
+		FAAD677A27ED8A5B00B5DBF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76681F4C4F762E0D77E0680A /* Pods_Factumex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42566AD51F92F8AB9C79E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F47213786EC69AF1F693BFA /* Pods-Factumex.debug.xcconfig */,
+				A06F3F91DD41AF66BE20C457 /* Pods-Factumex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D305085E6984C9056492F99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96FFCD753F6D2C26A1C721BA /* Pods_Factumex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA530EA027EF4C060073A6EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA530EA127EF4C370073A6EA /* ViewModelViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FA77E9C427ED246A00C344D6 = {
 			isa = PBXGroup;
 			children = (
 				FA77E9CF27ED246A00C344D6 /* Factumex */,
 				FA77E9CE27ED246A00C344D6 /* Products */,
+				A42566AD51F92F8AB9C79E5D /* Pods */,
+				D305085E6984C9056492F99E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,75 @@
 		FA77E9CF27ED246A00C344D6 /* Factumex */ = {
 			isa = PBXGroup;
 			children = (
+				FA530EA027EF4C060073A6EA /* ViewModel */,
+				FAAD677A27ED8A5B00B5DBF5 /* GoogleService-Info.plist */,
+				FA77E9E927ED25FD00C344D6 /* Common */,
+				FA77E9E627ED259D00C344D6 /* Core */,
+				FA77E9E527ED259400C344D6 /* View */,
+				FA77E9E427ED258B00C344D6 /* Networking */,
 				FA77E9D027ED246A00C344D6 /* AppDelegate.swift */,
 				FA77E9D227ED246A00C344D6 /* SceneDelegate.swift */,
-				FA77E9D427ED246A00C344D6 /* ViewController.swift */,
 				FA77E9D627ED246A00C344D6 /* Main.storyboard */,
 				FA77E9D927ED246C00C344D6 /* Assets.xcassets */,
 				FA77E9DB27ED246C00C344D6 /* LaunchScreen.storyboard */,
 				FA77E9DE27ED246C00C344D6 /* Info.plist */,
 			);
 			path = Factumex;
+			sourceTree = "<group>";
+		};
+		FA77E9E427ED258B00C344D6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9E727ED25C300C344D6 /* ApiServices.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA77E9E527ED259400C344D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9F027ED291900C344D6 /* TextFieldCell.swift */,
+				FA77E9F127ED291900C344D6 /* TextFieldCell.xib */,
+				FA77E9F427ED2CF000C344D6 /* ButtonCell.swift */,
+				FA77E9F527ED2CF000C344D6 /* ButtonCell.xib */,
+				FAAD675427ED438300B5DBF5 /* AnyChartCell.swift */,
+				FAAD675527ED438300B5DBF5 /* AnyChartCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA77E9E627ED259D00C344D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9ED27ED266E00C344D6 /* ViewController */,
+				FA77E9EC27ED266800C344D6 /* Model */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FA77E9E927ED25FD00C344D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9EA27ED262600C344D6 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FA77E9EC27ED266800C344D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9EE27ED269300C344D6 /* InformationResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA77E9ED27ED266E00C344D6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA77E9D427ED246A00C344D6 /* ViewController.swift */,
+				FAAD675827ED497E00B5DBF5 /* GraphicsViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA77E9E127ED246C00C344D6 /* Build configuration list for PBXNativeTarget "Factumex" */;
 			buildPhases = (
+				A513B30D14163F62C862C2C2 /* [CP] Check Pods Manifest.lock */,
 				FA77E9C927ED246A00C344D6 /* Sources */,
 				FA77E9CA27ED246A00C344D6 /* Frameworks */,
 				FA77E9CB27ED246A00C344D6 /* Resources */,
+				093912BE035B61DF3D3EC236 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +245,74 @@
 			files = (
 				FA77E9DD27ED246C00C344D6 /* LaunchScreen.storyboard in Resources */,
 				FA77E9DA27ED246C00C344D6 /* Assets.xcassets in Resources */,
+				FA77E9F727ED2CF000C344D6 /* ButtonCell.xib in Resources */,
 				FA77E9D827ED246A00C344D6 /* Main.storyboard in Resources */,
+				FA77E9F327ED291900C344D6 /* TextFieldCell.xib in Resources */,
+				FAAD675727ED438300B5DBF5 /* AnyChartCell.xib in Resources */,
+				FAAD677B27ED8A5B00B5DBF5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093912BE035B61DF3D3EC236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Factumex/Pods-Factumex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Factumex/Pods-Factumex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Factumex/Pods-Factumex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A513B30D14163F62C862C2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Factumex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA77E9C927ED246A00C344D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA77E9EB27ED262600C344D6 /* Constants.swift in Sources */,
 				FA77E9D527ED246A00C344D6 /* ViewController.swift in Sources */,
 				FA77E9D127ED246A00C344D6 /* AppDelegate.swift in Sources */,
+				FA530EA227EF4C370073A6EA /* ViewModelViewController.swift in Sources */,
+				FA77E9EF27ED269300C344D6 /* InformationResponse.swift in Sources */,
+				FA77E9E827ED25C300C344D6 /* ApiServices.swift in Sources */,
+				FA77E9F227ED291900C344D6 /* TextFieldCell.swift in Sources */,
 				FA77E9D327ED246A00C344D6 /* SceneDelegate.swift in Sources */,
+				FAAD675627ED438300B5DBF5 /* AnyChartCell.swift in Sources */,
+				FA77E9F627ED2CF000C344D6 /* ButtonCell.swift in Sources */,
+				FAAD675927ED497E00B5DBF5 /* GraphicsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +456,7 @@
 		};
 		FA77E9E227ED246C00C344D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F47213786EC69AF1F693BFA /* Pods-Factumex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +465,9 @@
 				DEVELOPMENT_TEAM = 4D3TWGHW5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Factumex/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere su consentimiento para que la Factumex acceda a la cámara";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Permisos para guardar tu foto";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se requiere su consentimiento para que APP acceda al álbum";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "omar-trujillo.Factumex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factumex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,6 +488,7 @@
 		};
 		FA77E9E327ED246C00C344D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06F3F91DD41AF66BE20C457 /* Pods-Factumex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +497,9 @@
 				DEVELOPMENT_TEAM = 4D3TWGHW5A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Factumex/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere su consentimiento para que la Factumex acceda a la cámara";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Permisos para guardar tu foto";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se requiere su consentimiento para que APP acceda al álbum";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "omar-trujillo.Factumex";
+				PRODUCT_BUNDLE_IDENTIFIER = com.factumex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
